@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DNT">
+      <UniqueIdentifier>{f1629d18-48f2-491a-8c1d-dff74d0e6788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Algos">
+      <UniqueIdentifier>{d9ea3c20-623f-4a63-a80c-105a428a881e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algos">
+      <UniqueIdentifier>{b858936f-a3b9-4595-af97-6959240effd7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SpecialFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator_aux_funcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardRobot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HouseDescription.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Battery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmRegistrar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Competition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionExt.h">
+      <Filter>Header Files\DNT</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorInformation.h">
+      <Filter>Header Files\DNT</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmRegistration.h">
+      <Filter>Header Files\DNT</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.h">
+      <Filter>Header Files\DNT</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractSensor.h">
+      <Filter>Header Files\DNT</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractAlgorithm.h">
+      <Filter>Header Files\DNT</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\DNT</Filter>
+    </ClInclude>
+    <ClInclude Include="_302901087_A.h">
+      <Filter>Header Files\Algos</Filter>
+    </ClInclude>
+    <ClInclude Include="_302901087_B.h">
+      <Filter>Header Files\Algos</Filter>
+    </ClInclude>
+    <ClInclude Include="_302901087_C.h">
+      <Filter>Header Files\Algos</Filter>
+    </ClInclude>
+    <ClInclude Include="_302901087_findNearest.h">
+      <Filter>Header Files\Algos</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SpecialFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator_aux_funcs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardRobot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HouseDescription.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Battery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmRegistration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Competition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionExt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_302901087_A.cpp">
+      <Filter>Source Files\Algos</Filter>
+    </ClCompile>
+    <ClCompile Include="_302901087_B.cpp">
+      <Filter>Source Files\Algos</Filter>
+    </ClCompile>
+    <ClCompile Include="_302901087_C.cpp">
+      <Filter>Source Files\Algos</Filter>
+    </ClCompile>
+    <ClCompile Include="_302901087_findNearest.cpp">
+      <Filter>Source Files\Algos</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IRobot5.0.rc">
+      <Filter>Header Files\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="computer.wav">
+      <Filter>Header Files\Resource Files</Filter>
+    </Media>
+    <Media Include="dave_cup.wav">
+      <Filter>Header Files\Resource Files</Filter>
+    </Media>
+    <Media Include="dave_walk.wav">
+      <Filter>Header Files\Resource Files</Filter>
+    </Media>
+    <Media Include="eat.wav">
+      <Filter>Header Files\Resource Files</Filter>
+    </Media>
+    <Media Include="finish.wav">
+      <Filter>Header Files\Resource Files</Filter>
+    </Media>
+    <Media Include="heymama.wav">
+      <Filter>Header Files\Resource Files</Filter>
+    </Media>
+    <Media Include="wereOn.wav">
+      <Filter>Header Files\Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
